@@ -5,10 +5,10 @@ function Login() {
     const navigate = useNavigate()
     return (
         <div className='h-screen bg-neutral-100 flex justify-center items-center'>
-            <div className='w-1/4 h-2/4 shadow-2xl object-cover rounded-3xl'>
-                <div className='w-full flex justify-center items-center flex-col mt-10 gap-3 p-5 '>
+            <div className='w-1/4  shadow-2xl object-cover rounded-3xl'>
+                <div className='w-full flex justify-center items-center flex-col mt-5 gap-2 p-4 '>
                     <h1 className='font-bold text-3xl mb-5 '>Agencia Cerimonial</h1>
-                    <form action="" className='w-full flex justify-center items-center flex-col  gap-3 p-5'>
+                    <form action="" className='w-full flex justify-center items-center flex-col  gap-2 p-2'>
                         <input type="text" placeholder='Email' className='w-full rounded-3xl bg-neutral-200 p-4 cursor-pointer mb-5 placeholder: text-neutral-900 ' />
                         <input type="text" placeholder='Password' className='w-full rounded-3xl bg-neutral-200 p-4 cursor-pointer mb-5 placeholder: text-neutral-900 ' />
                         <button className='w-1/2 rounded-3xl bg-blue-400 p-4 cursor-pointer font-bold' onClick={()=> navigate("/dashboard")}>Entrar</button>
