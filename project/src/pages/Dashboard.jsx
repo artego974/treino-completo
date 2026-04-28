@@ -4,11 +4,11 @@ import Card from "../components/Card"
 
 function Dashboard() {
   return (
-    <div className="flex min-h-screen">
-      <div className="h-screen w-1/5 bg-neutral-100">
+    <div className="flex min-h-screen bg-white">
+      <div className="h-screen w-1/5 ">
         <Nav />
       </div>
-      <div className="w-full flex items-center flex-col mt-10 p-5">
+      <div className="w-full flex-1 flex items-center flex-col mt-10 p-8">
         <h1 className="font-extrabold text-5xl ">Bem-vindo</h1>
         <p>Visão geral do evento</p>
         <div className="w-full mt-10 h-full flex flex-wrap justify-center gap-5">
